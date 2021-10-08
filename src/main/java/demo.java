@@ -15,6 +15,7 @@ public class demo {
         System.out.println("2.Sub");
         System.out.println("3.Multi");
         System.out.println("4.Division");
+        System.out.println("5.Modulo");
         ch= sc.nextInt();
 
         switch (ch)
@@ -34,6 +35,10 @@ public class demo {
             case 4 :
                 c=a/b;
                 System.out.println("A/b:" + c);
+                break;
+            case 5 :
+                c=a%b;
+                System.out.println("A%b:" + c);
                 break;
             default:
                 System.out.println("Wrong Input");
